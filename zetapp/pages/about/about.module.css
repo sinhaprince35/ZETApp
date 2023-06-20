@@ -1,0 +1,210 @@
+.aboutContainer {
+    margin-top: -25px;
+    background-image: url(https://zetapp.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FOurMission.13d85461.png&w=3840&q=100);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 2370px;
+    margin-left: -10px;
+}
+
+.missionContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* border: 2px solid white; */
+}
+
+.mission {
+    margin-top: 8px;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.innerText {
+    /* padding: 20px; */
+}
+
+.innerText1 {
+    margin-left: 50px;
+    font-size: 30px;
+    color: white;
+    line-height: 40px;
+    width: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+.subText {
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.year {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.yearText {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.yearImage {
+    display: flex;
+    justify-content: center;
+}
+
+.hrLine {
+    height: 25px;
+    /* color: #d0d0d0; */
+    background-color: #e9e7e7;
+    border: 1px none;
+}
+
+.gotFeatured {
+    /* margin-left: 300px;
+    margin-right: 270px; */
+    margin-top: 50px;
+    background-color: rgb(250, 251, 254);
+}
+
+.featuredTitle {
+    padding-top: 50px;
+    font-size: 50px;
+    /* text-align: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-left: 300px;
+}
+
+.fList {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 300px;
+    margin-right: 270px;
+    padding-bottom: 40px;
+
+
+}
+
+.featuredLink img {
+    height: 200px;
+    width: 325px;
+}
+
+.pTitle {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-left: 300px;
+}
+
+.meetInvestorsPerson {
+    display: flex;
+    margin-left: 350px;
+    margin-right: 250px;
+
+
+}
+
+.d11 img {
+    height: 150px;
+    width: 300px;
+    margin-right: 150px;
+    animation: fadeInAnimation 2s ease-in-out forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutContainer {
+        height: 600px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .missionContainer {
+        margin-top: 140px;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      .mission {
+        font-size: 36px;
+      }
+      
+      .innerText1 {
+        font-size: 20px;
+        line-height: 20px;
+        width: 30%;
+        margin-left: 50px;
+      }
+    
+      .subText {
+        font-size: 15px;
+      }
+      
+      .yearText {
+        font-size: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      
+      .featuredTitle {
+        font-size: 36px;
+        margin-left: 0;
+        text-align: center;
+      }
+      
+      .fList {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: 20px;
+      }
+      .featuredLink img {
+        height: 150px;
+        width: 100%;
+      }
+      
+      .pTitle {
+        font-size: 36px;
+        margin-left: 20px;
+        text-align: center;
+      }
+      
+      .meetInvestorsPerson {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+      }
+      
+      .d11 img {
+        height: 120px;
+        width: 80%;
+        margin-right: 0;
+      }
+  }

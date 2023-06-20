@@ -1,0 +1,167 @@
+/* <-------------Footer Styling------------> */
+.footerContainer {
+    background-image: url(https://zetapp.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FAboutUs.085fb7a2.png&w=1920&q=100);
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.footerImage {
+    padding: 50px;
+    margin-left: 220px;
+}
+
+.footerContainer>.innerFooter>hr {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.footerAddress {
+    display: flex;
+    margin-left: 230px;
+    margin-right: 250px;
+    padding-bottom: 350px;
+}
+
+.patner1 {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 250px;
+
+}
+
+.patner1>p {
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.patner1>a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.patner2 {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 250px;
+}
+
+.patner2>p {
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.patner2>a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.patner3 {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 250px;
+    padding: 30px;
+}
+
+.patner3>p {
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.patner3>a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.patner3 img {
+    height: 40px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.patner4 {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin-right: 200px; */
+}
+
+.patner4>p {
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.patner4>a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.socialConnect img {
+    height: 50px;
+}
+
+
+@media (max-width: 768px) {
+    .footerContainer {
+        background-size: cover; /* Adjust background image size for smaller screens */    }
+
+    .footerImage {
+        padding: 30px; /* Adjust padding for smaller screens */
+        margin-left: 40px; /* Adjust margin for smaller screens */
+    }
+
+    .footerContainer > .innerFooter > hr {
+        margin-left: 30px; /* Adjust margin for smaller screens */
+        margin-right: 30px; /* Adjust margin for smaller screens */
+    }
+
+    .footerAddress {
+        margin-left: 30px; /* Adjust margin for smaller screens */
+        margin-right: 30px; /* Adjust margin for smaller screens */
+        padding-bottom: 100px; /* Adjust padding for smaller screens */
+    }
+
+    .patner1, .patner2 {
+        padding: 15px; /* Adjust padding for smaller screens */
+        margin-right: 30px; /* Adjust margin for smaller screens */
+    }
+
+    .patner1 > p, .patner1 > a, .patner2 > p, .patner2 > a {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+    .patner3, .patner4 {
+        padding: 15px; /* Adjust padding for smaller screens */
+        margin-right: 30px; /* Adjust margin for smaller screens */
+    }
+
+    .patner3 > p, .patner3 > a, .patner4 > p, .patner4 > a {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+
+    .patner3 img {
+        height: 30px; /* Adjust image height for smaller screens */
+        margin-right: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .socialConnect img {
+        height: 40px; /* Adjust image height for smaller screens */
+    }
+}

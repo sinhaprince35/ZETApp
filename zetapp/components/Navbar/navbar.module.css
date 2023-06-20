@@ -1,0 +1,42 @@
+.navContainer {
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    padding: 15px 100px;
+    position: sticky;
+}
+
+.logo {
+    width: 140px;
+    height: 80px;
+}
+
+.menuList {
+    display: flex;
+    list-style: none;
+    margin-left: 42em;
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menuList>a {
+    margin-right: 60px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn>button {
+    padding: 15px 35px;
+    background-color: rgb(67, 67, 253);
+    color: #ffff;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px none rgb(67, 67, 253);
+    border-radius: 10px;
+}
+
+.navContainer>hr {
+    color: rgb(167, 165, 165);
+}
