@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../Navbar/navbar.module.css";
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -9,10 +10,10 @@ const Navbar = () => {
           <img src="../assets/logo.png" alt="logo" height="100%" width="100%" />
         </div>
         <div className={styles.menuList}>
-          <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/partner">Partner With Us</a>
-          <a href="/blog">Blog</a>
+          <Link href="/">Home</Link>
+          <Link href="/about">About</Link>
+          <Link href="/partner">Partner With Us</Link>
+          <Link href="/blog">Blog</Link>
         </div>
         <div className={styles.btn}>
           <button>Download ZET</button>
