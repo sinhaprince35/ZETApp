@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../Navbar/navbar.module.css";
-import Link from 'next/link';
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -18,8 +18,8 @@ const Navbar = () => {
         <div className={styles.btn}>
           <button>Download ZET</button>
         </div>
-          </nav>
-          <hr/>
+      </nav>
+      <hr />
     </div>
   );
 };
